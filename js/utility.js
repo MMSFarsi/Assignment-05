@@ -1,5 +1,4 @@
 
-
 function showSectionById(id){
     // Hide All Section
     document.getElementById('main-page').classList.add('hidden')
