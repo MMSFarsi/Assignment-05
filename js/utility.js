@@ -8,3 +8,12 @@ function showSectionById(id){
     
 
 }
+function showColorById(id){
+    // Hide All Section
+    document.getElementById('btn-donate').classList.remove('bg-[#B4F461]')
+    document.getElementById('btn-history').classList.remove('bg-[#B4F461]')
+
+    document.getElementById(id).classList.add('bg-[#B4F461]')
+    
+
+}
